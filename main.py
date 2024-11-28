@@ -7,7 +7,7 @@ TOKEN_BOT = '7680718551:AAFdwACWkQ8p6upROj4EUc6jhVZeaiANGp0'
 PATH_VIDEO = 'assets/videos/'
 
 async def start_no_register(update, context) -> None:
-    text = f"✍🏼 INSIRA O ID DA SUA CONTA DA CASA DE APOSTA NO CHAT:\n\n👇 Se você não possui uma conta, clique no botão para criar uma:\n\n⭐️ USE CÓDIGO PROMOCIONAL PRIVADO PARA OBTER BÔNUS DE 500% E RODADAS GRATUITAS: MNS24GPT"
+    text = f"✍🏼 INSIRA O ID DA SUA CONTA DA CASA DE APOSTA NO CHAT:\n\n👇 Se você não possui uma conta, clique no botão para criar uma:"
     video_path = PATH_VIDEO + 'register.mp4'
     button = ['📎REGISTRO', 'https://bonusplaytilt.com/cadastro4']
     await sendVideo(text, video_path, update, button)
