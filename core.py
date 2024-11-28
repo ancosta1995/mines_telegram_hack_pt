@@ -18,7 +18,7 @@ async def sendVideo(text, path, update, button = False):
 async def response(update, text, button=False):
     if button:
         keyboard = [
-            [InlineKeyboardButton("🤖INICIAR HACKER", web_app={'url': 'https://br.brasil107-7030.com.br/~mines9982954/'})]
+            [InlineKeyboardButton("🤖INICIAR HACKER", web_app={'url': 'https://br.brasil107-7030.com.br/~mines9982954/mines_pt/'})]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         if update.message:
